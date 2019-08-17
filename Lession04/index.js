@@ -158,7 +158,9 @@ for (let j=0; j<highScore.length; j++) {
         }
     }
 }
-console.log (highScore [0], highScore [1], highScore [2], highScore [3], highScore [4])
+for (let i=0; i<5; i++) {
+console.log (highScore [i])
+}
 
 
 
