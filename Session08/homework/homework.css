@@ -1,0 +1,87 @@
+/* Bai tap ve selector */
+#text1 {
+    color: red
+}
+
+#text2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+p3 {
+    color: green
+}
+
+#text3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.blue {
+    color: blue;
+}
+
+/* Bai tap ve Text */
+#text4{
+    background-color: wheat;
+    /*code vào phần bên dưới*/
+    color: purple;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* Bai tap ve display */
+#text5{
+    background: red;
+    display: inline;
+}
+
+#span1{
+    background: red;
+  }
+#span2{
+    background:yellow;
+    display: inline-block;
+    width: 500px;
+  }
+
+#span3{
+    background: red;
+    display: block
+  }
+#text6{
+    background: blue;
+  }
+
+/* Bài tập về box model */
+#text7{
+    width: 200px;
+    height:200px;
+    background:wheat;
+    font-size:30px;
+    text-align:center;
+    line-height:200px;
+    /*  code vào phần bên dưới  */
+    border: 3px solid blue;
+    border-radius: 10px
+  }
+#text8{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: wheat;
+    width:400px;
+    border: 2px solid green;
+  /*  Code vào phần bên dưới  */
+    padding: 45px 40px 45px 40px;
+  }
+
+#a>#text9 {
+    background:wheat;
+    /*  code vào phần bên dưới   */
+    margin: 50px 60px 50px 40px;
+  }
+#a{
+    /* Không code vào đây */
+    border:1px solid black
+  }
+

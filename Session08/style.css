@@ -1,0 +1,38 @@
+#header {
+    display: inline;
+    color: brown;
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.blue {
+    color: blue;
+}
+.small {
+    font-size: 15px;
+}
+
+#container {
+    height: 600px;
+    width: 1000px;
+    background-color: green;
+    background-image: url(aruba-1-950x530.jpg);
+    background-size: cover;
+}
+div {
+    width: 500px;
+    height: 500px;
+    background-color: cyan
+}
+#box1 {
+    background-color:red;
+    margin: 50px 40px 20px 30px; /*top, right, bottom left */
+    padding: 30px 20px 10px 30px;
+    border: 15px solid yellow;
+}
+
+#box2 {
+    width: 300px;
+    height: 300px;
+}

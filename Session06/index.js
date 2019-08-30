@@ -149,10 +149,17 @@ let p = 0
 for (let i=0; l;i++) {
     const a = Math.floor(Math.random()*10)
     const b = Math.floor(Math.random()*10)
-    const n = Math.floor(Math.random()*2)
-    const c = a + b + n
-    console.log (`${[a]}+${[b]}=${[c]}`)
-    const ans = prompt("True or False? T/F")
+ // const n = Math.floor(Math.random()*2) // Cach 1: tổng luôn lớn hơn
+    const saiSo = [-1,0,1] // Cach 2: tổng có thể nhỏ hơn
+    const randNumber = Math.floor(Math.random()*3)
+
+    const ops = ["+","-","*","/"]
+    const randOps = ops [Math.floor(Math.random()*4)]
+
+    const n = saiSo[randNumber]
+    const displayResult = calculate(a,b, randOps) + n
+
+    const ans = prompt(`${a}${randOps}${b}=${[displayResult]} True or False? T/F`)
     if ((n==0 && ans=="T") || (n!=0 && ans=="F")) {
         p +=1
         console.log ("True - Point:",p)
@@ -162,3 +169,5 @@ for (let i=0; l;i++) {
         l = false
     }
 }
+
+
