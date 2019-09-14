@@ -1,0 +1,61 @@
+#container{
+    height: 320px;
+    background: rgb(241, 241, 241);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* align-items: center;
+    justify-content: center; */
+    /* justify-content: flex-start; --> Truc chinh */
+    /* align-items: center; --> Truc phu (vuong goc truc chinh) */
+}
+/* }
+i{
+    font-size: 100px;
+    color: royalblue;
+}
+i:hover{
+    cursor: pointer;
+    color: greenyellow;
+    font-size: 150px;
+} */
+
+#logo{
+font-size: 60px;
+font-family: 'Pacifico', cursive;
+}
+#box1{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+input{
+    height: 30px;
+}
+button{
+    font-size: 16px;
+    padding: 4px 8px;
+    width: 100px;
+    color: white;
+    background: black;
+    border-radius: 8px;
+}
+.box2{
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.title{
+    font-weight: bold;
+}
+#box3{
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+}
+#logos > i:hover{
+    color: royalblue;
+    font-size: 1.1em;
+}
